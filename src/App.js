@@ -8,10 +8,14 @@ import ShowsIndex from "./components/shows/ShowsIndex";
 import MoviesIndex from "./components/movies/MoviesIndex";
 import Footer from "./components/common/Footer";
 
+
+
 const App = () => (
   <div className="wrapper">
     <Nav />
+    
     <Switch>
+    
       <Route exact path="/">
         <Home />
       </Route>

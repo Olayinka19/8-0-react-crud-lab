@@ -5,7 +5,7 @@
   --gray: #3d3d3d;
   --light: #f4fffd;
   --primary: #4e598c;
-  --error: #ed254e;
+  --error: #e1cfd2;
   --primary-font: "Nunito", sans-serif;
 }
 
@@ -15,6 +15,9 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  background-color: white;
+background-image: url("https://www.transparenttextures.com/patterns/old-map.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 h1,

@@ -1,5 +1,7 @@
+import React from "react"
+
 export const Home = () => {
-  return <p>Home</p>;
+  return <p>Home Fako</p>;
 };
 
 export default Home;

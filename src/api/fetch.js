@@ -7,3 +7,8 @@ export function getAllMovies() {
 export function getAllShows() {
   return fetch(`${URL}/shows`).then((response) => response.json());
 }
+export function deleteShows(id) {
+  const options = {methods: "DELETE"}
+  return fetch(`${URL}/shows/${id}`, options).then((response) => response.json());
+}
+
